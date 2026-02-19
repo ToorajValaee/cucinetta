@@ -22,7 +22,7 @@
 <body>
   <header class="site-header">
     <nav class="nav">
-      <a class="nav-link" href="https://menu.cusinetta.ir" target="_blank" rel="noopener">منو</a>
+      <a class="nav-link" href="https://menu.cucinetta.ir" target="_blank" rel="noopener">منو</a>
       <a class="nav-link" href="#contact">تماس با ما</a>
       <a class="nav-link" href="#address">آدرس و شعب</a>
     </nav>
@@ -37,7 +37,7 @@
 
     <section id="contact" class="section contact">
       <h2>تماس با ما</h2>
-      <p>اگر به منو نیاز دارید، روی <a href="https://menu.cusinetta.ir" target="_blank" rel="noopener">منو</a> کلیک کنید.</p>
+      <p>اگر به منو نیاز دارید، روی <a href="https://menu.cucinetta.ir" target="_blank" rel="noopener">منو</a> کلیک کنید.</p>
       <ul class="phones">
         <li><a href="tel:+982188813884">+98 21 888 13 884</a></li>
         <li><a href="tel:+982188813885">+98 21 888 13 885</a></li>
@@ -45,22 +45,38 @@
       </ul>
       <p class="contact-detail">برای سفارش و رزرو با شماره‌های بالا تماس بگیرید.</p>
       <div class="social">
-        <a href="https://instagram.com/cusinetta_lazagna" target="_blank" rel="noopener">اینستاگرام</a>
+        <a href="https://instagram.com/cucinetta_lazagna" target="_blank" rel="noopener">اینستاگرام</a>
       </div>
     </section>
 
     <section id="address" class="section address">
       <h2>آدرس و شعب</h2>
       <p class="addr-text">آدرس: تهران، خدری، تبریزی</p>
-      <a class="btn map-btn" href="https://www.google.com/maps/dir/?api=1&destination=تهران+خیابان+مثال+پلاک+۱۲۳" target="_blank" rel="noopener">مسیر یابی</a>
+      <a class="btn map-btn" href="https://www.google.com/maps/place/35%C2%B043'13.9%22N+51%C2%B025'03.0%22E/@35.72054,51.417512,17z/data=!3m1!4b1!4m4!3m3!8m2!3d35.72054!4d51.417512?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">مسیر یابی</a>
     </section>
   </main>
 
   <!-- Mobile quick actions -->
   <div class="mobile-actions" role="navigation" aria-label="Quick actions">
-    <a class="action-btn call" href="tel:+982112345678" title="تماس" aria-label="Call">☎️ تماس</a>
-    <a class="action-btn menu" href="https://menu.cusinetta.ir" target="_blank" rel="noopener" title="منو" aria-label="Menu">🍽️ منو</a>
-    <a class="action-btn directions" id="open-map" href="https://www.google.com/maps/dir/?api=1&destination=تهران+خیابان+مثال+پلاک+۱۲۳" target="_blank" rel="noopener" title="نمایش مسیر" aria-label="Directions">📍 مسیر</a>
+    <a class="action-btn call" href="tel:+982112345678" title="تماس" aria-label="Call">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.08 4.18 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.72c.12.9.38 1.76.76 2.56a2 2 0 0 1-.45 2.11L9.91 9.91a16 16 0 0 0 6 6l1.52-1.52a2 2 0 0 1 2.11-.45c.8.38 1.66.64 2.56.76A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+      <span>تماس</span>
+    </a>
+    <a class="action-btn menu" href="https://menu.cucinetta.ir" target="_blank" rel="noopener" title="منو" aria-label="Menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+        <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+      <span>منو</span>
+    </a>
+    <a class="action-btn directions" id="open-map" href="https://www.google.com/maps/place/35%C2%B043'13.9%22N+51%C2%B025'03.0%22E/@35.72054,51.417512,17z/data=!3m1!4b1!4m4!3m3!8m2!3d35.72054!4d51.417512?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" title="نمایش مسیر" aria-label="Directions">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+        <path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 1 1 18 0z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+        <circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.6" />
+      </svg>
+      <span>مسیر</span>
+    </a>
   </div>
 
   <script src="script.js" defer></script>
