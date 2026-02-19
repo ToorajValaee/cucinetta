@@ -59,8 +59,9 @@ body{
   .logo{width:90vw;max-width:520px}
   .site-header{display:none}
   body{padding-bottom:88px}
-  .mobile-actions{left:18px;transform:none;width:calc(100% - 36px)}
-  .action-btn{min-width:0;height:56px;padding:12px 8px;font-size:1rem}
+  .mobile-actions{left:18px;transform:none;width:calc(100% - 36px);border:none;border-radius:0}
+  .action-btn{min-width:0;height:56px;padding:12px 8px;font-size:1rem;border:none;border-left:none}
+  .action-btn + .action-btn{border-left:1px solid var(--accent)}
 }
 
 /* minimal accessibility focus styles */
